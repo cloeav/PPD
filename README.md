@@ -4,8 +4,14 @@ Heart rate measurement utilizing the green channel of pixels is referred to as p
 
 The process of heart rate measurement through video analysis using the green channel of pixels consists of the following steps:
 
-### 1. Video acquisition: 
-For this project, 
+### 1. Video acquisition 
+For this project, a standard smartphone camera was used to obtain video footage of a person's face standing in front of a white wall. The videos were taken under proper lighting conditions.
+
+### 2. Face detection 
+
+
+
+
 
 The purpose of calculating the average value of the color channel intensities within the selected ROI is to obtain a single scalar value that represents the color information in the region of interest. This is done by taking the mean value of the intensities across all the pixels in the ROI.
 
