@@ -2,7 +2,10 @@
 
 Heart rate measurement utilizing the green channel of pixels is referred to as photoplethysmography (PPG). PPG is a non-invasive approach that utilizes light to detect variations in blood volume. The green channel is commonly selected due to its ability to effectively capture blood volume changes while minimizing the impact of motion artifacts.
 
+The process of heart rate measurement through video analysis using the green channel of pixels consists of the following steps:
 
+## 1. Video acquisition: 
+For this project, 
 
 The purpose of calculating the average value of the color channel intensities within the selected ROI is to obtain a single scalar value that represents the color information in the region of interest. This is done by taking the mean value of the intensities across all the pixels in the ROI.
 
