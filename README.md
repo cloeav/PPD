@@ -1,6 +1,6 @@
 # PPD: Heart Rate Measurement Through Video Analysis 
 
-Heart rate measurement utilizing the green channel of pixels is referred to as photoplethysmography (PPG). PPG is a non-invasive approach that utilizes light to detect variations in blood volume. The green channel is commonly selected due to its ability to effectively capture blood volume changes while minimizing the impact of motion.
+Heart rate measurement utilizing the green channel of pixels is referred to as photoplethysmography (PPG). PPG is a non-invasive approach that utilizes light to detect variations in blood volume. The green channel is commonly used due to its ability to effectively capture blood volume changes while minimizing the impact of motion.
 
 The process of heart rate measurement through video analysis using the green channel of pixels consists of the following steps:
 
