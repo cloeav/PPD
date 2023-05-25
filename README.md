@@ -8,7 +8,7 @@ The process of heart rate measurement through video analysis using the green cha
 For this project, a standard smartphone camera was used to obtain video footage of a person's face standing in front of a white wall. The videos were taken under proper lighting conditions.
 
 ### 2. Face detection 
-In this application, a Haar cascade classifier was utilized to detect frontal faces in each video frame. The cascade classifier is built upon Haar-like features and the AdaBoost algorithm. OpenCV offers a range of pre-trained Haar cascade classifiers, and in this particular instance, the 'haarcascade_frontalface_default.xml' was employed. In addition, the detectMultiScale function was used to obtain the coordenates of the rectangles containing the detected fases. The parameters used in this function were:
+In this application, a Haar cascade classifier was utilized to detect frontal faces in each video frame. The cascade classifier is built upon Haar-like features and the AdaBoost algorithm. OpenCV offers a range of pre-trained Haar cascade classifiers, and in this particular instance, the **_'haarcascade_frontalface_default.xml'_** was employed. In addition, the **_detectMultiScale_** function was used to obtain the coordenates of the rectangles containing the detected fases. The parameters used in this function were:
 
 **_- image:_** The input frame in grayscale format.
 
