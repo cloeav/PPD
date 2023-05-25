@@ -12,7 +12,7 @@ In this application, a Haar cascade classifier was utilized to detect frontal fa
 
 **_- image:_** The input frame in grayscale format.
 
-**_- scaleFactor: _**  This parameter was set to 1.6 because a smaller value increased false positives because the algorithm detected smaller faces. 
+**_- scaleFactor:_**  This parameter was set to 1.6 because a smaller value increased false positives because the algorithm detected smaller faces. 
 
 **_- minNeighbors:_** This parameter was set to 5, indicated the minimum number of neighbors (rectangles) required for a detected region to be considered a face. A hiher value resulted in missed faces. 
 
