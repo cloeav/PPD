@@ -10,11 +10,11 @@ For this project, a standard smartphone camera was used to obtain video footage 
 ### 2. Face detection 
 In this application, a Haar cascade classifier was utilized to detect frontal faces in each video frame. The cascade classifier is built upon Haar-like features and the AdaBoost algorithm. OpenCV offers a range of pre-trained Haar cascade classifiers, and in this particular instance, the 'haarcascade_frontalface_default.xml' was employed. In addition, the detectMultiScale function was used to obtain the coordenates of the rectangles containing the detected fases. The parameters used in this function were:
 
-*- image:* The input frame in grayscale format.
+**_- image:_** The input frame in grayscale format.
 
-*- scaleFactor:* This parameter was set to 1.6 because a smaller value increased false positives because the algorithm detected smaller faces. 
+**_- scaleFactor: _**  This parameter was set to 1.6 because a smaller value increased false positives because the algorithm detected smaller faces. 
 
-*-minNeighbors:* This parameter was set to 5, indicated the minimum number of neighbors (rectangles) required for a detected region to be considered a face. A hiher value resulted in missed faces. 
+**_- minNeighbors:_** This parameter was set to 5, indicated the minimum number of neighbors (rectangles) required for a detected region to be considered a face. A hiher value resulted in missed faces. 
 
 
 
