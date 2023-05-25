@@ -16,7 +16,7 @@ In this application, a Haar cascade classifier was utilized to detect frontal fa
 
 **_- minNeighbors:_** This parameter was set to 5, indicated the minimum number of neighbors (rectangles) required for a detected region to be considered a face. A hiher value resulted in missed faces. 
 
-
+### 3. Green channel extraction
 
 
 The purpose of calculating the average value of the color channel intensities within the selected ROI is to obtain a single scalar value that represents the color information in the region of interest. This is done by taking the mean value of the intensities across all the pixels in the ROI.
